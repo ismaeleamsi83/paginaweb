@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Para hacer páginas en castellano poner lang="es" -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Los mejores moviles gaming en 2019">       
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        <link rel="icon" type="image/svg+xml" href="imagenes/favicon.svg" sizes="any">
+        
+        <link href="https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap" rel="stylesheet">
+        
+        
+
+        <title>Moviles Gaming</title>
+    </head>
+    <body>
+        <header>
+            <nav> <!-- Se pone habitualmente dentro del header, porque la barra de navegación acostumbra a estar en la cabecera, pero podría estar fuera -->
+                <a href="xiaomi.html" class="menu-arriba">Xiaomi</a> |
+                <a href="zte.html" class="menu-arriba">Zte</a> |
+                <a href="asus.html" class="menu-arriba">Asus</a> |
+                <a href="razer.html" class="menu-arriba">Razer</a>
+                <a href="formulario.html"><img src="imagenes/idioma-castellano.png" alt="" class="banderas"></a>
+                <a href="formulario_eng.html"><img src="imagenes/idioma-ingles.png" alt="" class="banderas" style="margin-bottom: 0.1em"></a>
+            </nav>
+            <div class="logo-arriba">
+                <img src="imagenes/logo-isgaming-vectorizado.svg" alt=" " id="imagen-logo-isgaming"> 
+            </div>
+            <h1 id="titulo-cabecera">These phones are built to play</h1>
+            
+        </header>
+        <main> <!-- Los elementos que no sean comunes entre varias páginas, deberían estar dentro del main -->
+            <section class="contenidos-menu-central-individual">
+               <h2>Form</h2>
+                <form name="miFormulario" method="post" onsubmit="return Validar('nombre', 'passwd')" action="">
+                    <fieldset>
+                        <legend>
+                            Personal Information
+                        </legend>
+                        <br>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="nombre" />
+                        <br><br>
+                        <label for="surname">Surname:</label>
+                        <input type="text" name="surname" id="passwd" />
+                        <br><br>
+                        <label for="surname">Email:</label>
+                        <input type="email" name="mail" required />
+                        <br><br>
+                        <label for="sexo">Sex:</label>
+                        <p>
+                        <input type="radio" name="sexo" value="Masculino" checked>Male
+                        <input type="radio" name="sexo" value="Femenino" >Female</p>
+                    </fieldset>
+                    <br><br>
+                    <fieldset>
+                        <legend>
+                            Mobile Opinion
+                        </legend>
+                        <br>
+                        <label for="list">Mobile List:</label>
+                        <input list="moviles" name="list">
+                        <br>
+                        <datalist id="moviles">
+                            <option value="Xiaomi"></option>
+                            <option value="Zte"></option>
+                            <option value="Asus"></option>
+                            <option value="Razer"></option>
+                        </datalist>
+                        <br><br>
+                        <label for="message" >Write your opinion here:</label>
+                        <textarea name="message" id="" cols="30" rows="10">
+                            Type here...
+                        </textarea>
+                        <br><br><br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </fieldset>
+                </form>
+            </section>
+            <section class="estilo-formulario">
+                <a href="index_eng.html"><p>Go back to start</p></a>
+            </section>
+        </main>
+        <footer>
+            <h3>Copyright&copy; 2019 - Legal notice, privacy policy.</h3>
+            <h3>Web designed without any framework</h3>
+        </footer>
+    </body>
+</html>

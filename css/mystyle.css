@@ -1,0 +1,257 @@
+body {
+    background-color: aliceblue;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+header, nav, main, footer {
+    float: left;
+    width: 100%;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: #6B96B0;
+    position: fixed;
+    padding: 1em 0;
+    color: white;
+    background-image: linear-gradient(#6B96B0, #81ACC6, #A7CAE0);
+}
+
+.menu-arriba {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 4vw;
+    padding: 0 0.5em;
+    color: white;
+}
+
+.banderas {
+    width: 1.5em;
+    margin: 0 0.2em;
+}
+
+.logo-arriba {
+    background-color: #2D4F6B;
+    padding-top: 3em;
+    float: left;
+    width: 100%;
+   
+} 
+
+
+
+#imagen-logo-isgaming {
+    width: 40%;
+    max-width: 400px;
+    padding-top: 2em;
+}
+
+#titulo-cabecera {
+    margin: 0;
+    padding: 0 0 1em 0;
+    color: white;
+    background-color: #2D4F6B;
+    font-size: 3vw;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+
+main {
+    background-color: #6B96B0;
+    background-image: url(../imagenes/fondo-central-2.jpg);
+    
+}
+
+.contenidos-menu-central {
+    float: left;
+    width: 46%;
+    background-color: #2D4F6B;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+}
+
+.contenidos-menu-central table {
+    margin: 0 auto;
+}
+
+.contenidos-menu-central h2 {
+    font-size: 5vw;
+    padding: 0.5em 0;
+}
+
+.contenidos-menu-central h3 {
+    font-size: 3vw;
+    text-align: left;
+    padding: 1em;
+    line-height: normal;
+}
+
+.imagen-contenidos-central {
+    width: 80%;
+}
+
+.contenidos-menu-central-individual {
+    float: left;
+    width: 80%;
+    background-color: #2D4F6B;
+    margin: 8%;
+    padding: 2%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+}
+
+.imagen-contenidos-central-individual {
+    width: 60%;
+}
+
+.contenidos-menu-central-individual table, .contenidos-menu-central-individual table td, .contenidos-menu-central-individual table th {
+    margin: 0 auto;
+    border: 1px solid white;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+    padding: 1em;
+    font-size: 2.1vw;
+}
+
+.contenidos-menu-central-individual h2 {
+    font-size: 5vw;
+    padding: 0.5em 0;
+}
+
+.contenidos-menu-central-individual h3 {
+    font-size: 3vw;
+    text-align: left;
+    padding: 1em;
+    line-height: normal;
+}
+
+.estilo-formulario {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    background-color: #2D4F6B;
+    color: white;
+    padding: 0.5em 0;
+    font-size: 2.5vw;
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    -moz-border-left: 2px solid red;
+    -moz-border-top: 2px solid red;
+    -moz-border-right: 2px solid red;
+    -webkit-border-left: 2px solid red;
+    -webkit-border-top: 2px solid red;
+    -webkit-border-right: 2px solid red;
+}
+
+.estilo-formulario a {
+    text-decoration: none;
+    color: white;
+}
+
+.estilo-formulario h2 {
+    font-size: 6vw;
+}
+
+.contenidos-menu-central-individual p {
+    font-size: 3.5vw;
+}
+
+fieldset {
+    border: 1px solid white;
+    -moz-border: 1px solid white;
+    -webkit-border: 1px solid white;
+}
+
+legend, label, input, datalist, textarea, option {
+    font-size: 3.5vw;
+}
+
+footer {
+    background-color: black;
+    padding: 3em 0;
+    color: white;
+    font-size: 1.5vw;
+    line-height: normal;
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    
+    
+    .menu-arriba {
+        font-size: 3vw;
+    }
+    
+    .banderas {
+        width: 2em;
+        margin: 0 0.5em;
+    }
+    
+    .contenidos-menu-central {
+        margin: 1% 9%;
+        width: 30%;
+    }
+    
+    .contenidos-menu-central h2 {
+        font-size: 3vw;
+        padding: 0.5em 0;
+    }
+
+    .contenidos-menu-central h3 {
+        font-size: 1.9vw;
+        text-align: left;
+        padding: 1em;
+        line-height: normal;
+    }
+
+    .imagen-contenidos-central {
+        width: 80%;
+    }
+    
+    .imagen-contenidos-central-individual {
+        width: 70%;
+    }
+    
+    .contenidos-menu-central-individual {
+        width: 60%;
+        margin: 8% 20%;
+    }
+    
+    .contenidos-menu-central-individual h2 {
+        font-size: 4vw;
+    }
+
+    .contenidos-menu-central-individual h3 {
+        font-size: 2vw;
+    }
+    
+    .contenidos-menu-central-individual table, .contenidos-menu-central-individual table td, .contenidos-menu-central-individual table th {
+        font-size: 1.7vw;
+    }
+    
+    .contenidos-menu-central-individual form label, .contenidos-menu-central-individual form input, .contenidos-menu-central-individual form p, .contenidos-menu-central-individual form datalist, .contenidos-menu-central-individual form textarea {
+        font-size: 1.5vw;
+        margin-top: 0.5em;
+    }
+
+    
+}
